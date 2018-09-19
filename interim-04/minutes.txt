@@ -1,0 +1,87 @@
+﻿CELLAR -- Virtual Interim Meeting
+
+DRAFT MINUTES FOR Virtual Interim Meeting:  August 28, 2018        20:00 UTC
+
+INFO:
+        https://datatracker.ietf.org/meeting/interim-2018-cellar-04/session/cellar
+
+
+Attendees:
+Michael Richardson
+Moritz Bunkus
+Jérôme Martinez
+Martin Below
+Steve Lhomme
+Dave Rice (as call-in user)
+Michael Niedermayer
+<PLEASE SIGN YOUR NAME HERE>
+Missing: Tim Terriberry
+
+Agenda:
+
+1. Note Well.    https://www.ietf.org/about/note-well/
+2. Draft minutes from Last meeting  https://www.ietf.org/mail-archive/web/cellar/current/msg01652.html
+Adopted as written.
+
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.tools.ietf.org/p/notes-cellar-virtual04?useMonospaceFont=true
+
+   2b) Roll call
+
+4. WG status update
+   - milestones submitted.
+   - EBML not in WG last call yet.
+   - 
+
+5. Progress on EBML comments and review.
+   - when we can get EBML-05 posted?
+   - 8 issues open, 4 are "feature requests" for a future revision, 4 are
+      small issues with pull requests outstanding.
+      https://github.com/Matroska-Org/ebml-specification/issues/183
+      The Group thinks that First Come First Served should be fine for the EBML DocType Registry.
+ Initial values of matroska, and webm.
+ "rawcooked" will be added Jérôme Martinez.
+
+      https://github.com/Matroska-Org/ebml-specification/issues/182
+      closed with small change to document.
+
+      https://github.com/Matroska-Org/ebml-specification/issues/176
+    closed, with attachment not being recurring.
+
+      https://github.com/Matroska-Org/ebml-specification/issues/175  LEFT OPEN
+    unclear if this is an ebml issue, but this is an addition.
+  
+      https://github.com/Matroska-Org/ebml-specification/issues/164  LEFT OPEN
+      desire for a rational number format, extension.  can be defined as an extension.
+
+      https://github.com/Matroska-Org/ebml-specification/issues/157 closed
+      #180 closed, nobody liked it.
+ #181 https://github.com/Matroska-Org/ebml-specification/pull/181  <- consensus to go with this solution.
+
+      https://github.com/Matroska-Org/ebml-specification/issues/156
+      this should be a new document, JSON/XML/etc. translation of EBML.
+
+      https://github.com/Matroska-Org/ebml-specification/issues/48  CLOSED in previous version.
+
+
+6. EBML IANA Considerations, REDUX.
+
+   - Link to IANA considerations thread -
+      https://www.ietf.org/mail-archive/web/cellar/current/msg01601.html
+   - EBML Header has TLV Element with Document Type. ElementID=xxx.
+   - EBML Header Document Type needs a registry for Document Types: what is the amending
+   - EBML header ElementIDs should have an update rule that says IETF Standards Action to update, (and version must be > 1).
+
+(was discussed above)
+
+
+ACTION:
+    1) updated ebml document for week of August 27, with updated IANA considerations for all additions.
+          (ElementName, and DocType Registry)
+    2) ffv1 to be worked upon in September..
+    3) work on Matroska document for September meeting.
+     
+
+7. Any other Business.
+
