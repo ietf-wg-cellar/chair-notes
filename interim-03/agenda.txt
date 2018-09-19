@@ -1,0 +1,56 @@
+CELLAR -- Agenda for Virtual Interim Meeting
+July 31, 2018        20:00 UTC
+
+INFO:
+        https://datatracker.ietf.org/meeting/interim-2018-cellar-03/session/cellar
+
+WEBEX:
+        Meeting number: 313 505 170
+        Meeting password: dq64cWsm
+        Meeting link:
+        https://ietf.webex.com/ietf/j.php?MTID=me21026faa14be85507cdef66b860014e
+        Host key: 763872
+        Audio connection:
+        1-650-479-3208 Call-in toll number (US/Canada)
+
+Agenda:
+
+1. Note Well.
+2. Draft minutes from Last meeting
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.tools.ietf.org/p/notes-cellar-virtual03?useMonospaceFont=true
+
+   2b) Roll call
+
+4. Any updates from IETF102.
+   - GENART review.
+
+5. EBML document status.
+   How to get this into WG Last Call.
+
+6. Milestones for WG.
+   Proposed changes:
+      Jul 2018     Adopt matroska specifications as WG documents
+      Aug 2018	Submit specification for EBML to IESG (Standards Track)
+      Aug 2018     Adopt flac     specifications as WG documents
+
+      Oct 2018	Submit informational specification for FFV1 video codec
+                   versions 0, 1 and 3 to IESG for publication
+                   draft-ietf-cellar-ffv1
+
+     Dec 2019	Submit specification for FFV1 video codec version 4 to IESG (Standards Track)
+
+     xxx 2019	Submit informational specification for Matroska container
+                format versions 1, 2 and 3 to IESG for publication
+
+     xxx 2019	Submit specification for FLAC audio codec to IESG (Standards Track)
+                   draft-xiph-cellar-flac
+     xxx 2019	Submit specification for Matroska container format version 4 to IESG (Standards Track)
+                   draft-lhomme-cellar-matroska
+
+   What would be appropriate values for xxx above?                   
+
+7. responses/plan to address GENART review of ffv1.
+
+

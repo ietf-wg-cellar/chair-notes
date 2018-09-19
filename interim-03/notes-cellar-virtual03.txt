@@ -1,0 +1,137 @@
+INFO:
+        https://datatracker.ietf.org/meeting/interim-2018-cellar-03/session/cellar
+
+WEBEX:
+        Meeting number: 313 505 170
+        Meeting password: dq64cWsm
+        Meeting link:
+        https://ietf.webex.com/ietf/j.php?MTID=me21026faa14be85507cdef66b860014e
+        Host key: 763872
+        Audio connection:
+        1-650-479-3208 Call-in toll number (US/Canada)
+   Slides: https://docs.google.com/presentation/d/1iotL3RR_cgb_dmUWd0RvGi399d2hvNPTkR6a49RF5c4/edit?usp=sharing
+   (slides do not say anything that isn't below)
+
+Attendees:
+	1. Michael Richardson (mcr)
+	2. Kieran O'Leary
+	3. Martin Below
+	4. Jérôme Martinez
+	5. Dave Rice (call-in user 2)
+	6. Steve Lhomme
+	7. Ashley Blewer
+	8. Tim Terriberry
+
+Regrets:
+	1. Andrew Weaver (last minute issue)
+	2. Michael Niedermayer
+	3. Moritz Bunkus
+	4.
+
+Agenda:
+
+1. Note Well.
+
+2. Draft minutes from Last meeting.
+	https://www.ietf.org/mail-archive/web/cellar/current/msg01505.html
+
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.tools.ietf.org/p/notes-cellar-virtual03?useMonospaceFont=true
+       https://datatracker.ietf.org/meeting/interim-2018-cellar-01/materials/minutes-interim-2018-cellar-01-201805292000
+
+
+   2b) Roll call
+	   -  as listed above.
+
+4. Any updates from IETF102.
+      -  Tim only person at IETF102
+      - GENART review.  Matt spent over a month of effort on the review!!!
+        Please take a good look at the comments.
+
+      - Link to Matt Miller's review
+       - https://mailarchive.ietf.org/arch/msg/cellar/671YjBEqo-vdtrHdUebApfu7t_8
+
+       - Pull request from Dave, responding to pretty much all his
+           comments.... there are a few suggestions that were not adopted, but
+           that was due to it being controversial.
+
+       -  Biggest part that is still pending, lots of pseudo-code, was
+          looking for more narative, and there were concerns about
+          conflicts... How to read the pseudo-code out loud while
+          communicating it to another person. Added "as-read"...
+
+       - DR looking for experience with other RFCs, looking for other
+       -  examples of pseudo-code with narative.
+                   ACTION: mcr to ask for advice. (DONE)
+
+       -  RFC6716 has good points in the first half (up to section 4.2), and
+          the second half was not as well received.
+
+       - FFV1 --- Dave to review 6716, Jerome to do some markup on current
+         code.
+
+
+5. EBML document status.
+   How to get this into WG Last Call.
+   - explanation of what it is.
+   - 8 issues open, 4 are "feature requests" for a future revision, 4 are
+      small issues with pull requests outstanding.
+
+   - Link to IANA considerations thread -
+      https://www.ietf.org/mail-archive/web/cellar/current/msg01601.html
+   - EBML Header has TLV Element with Document Type. ElementID=xxx.
+   - EBML Header Document Type needs a registry for Document Types: what is the amending
+   - EBML header ElementIDs should have an update rule that says IETF Standards Action to update, (and version must be > 1).
+
+   https://tools.ietf.org/html/rfc8126 <- different rules.
+
+
+6. Milestones for WG.
+   Proposed changes:
+      Jul 2018     Adopt matroska specifications as WG documents
+      Aug 2018        Submit specification for EBML to IESG (Standards Track)
+      Oct 2018     Adopt flac     specifications as WG documents
+		      not yet enough work on this?
+			most work has been making the document more RFC-like.
+			wait for Andrew Weaver to comment on this.
+
+      Oct 2018        Submit informational specification for FFV1 video codec
+                   versions 0, 1 and 3 to IESG for publication
+                   draft-ietf-cellar-ffv1
+			-> just needs as-read narative to be sorted out.
+			-> implies WGLC for mid-September.
+
+     Dec 2019        Submit specification for FFV1 video codec version 4 to IESG (Standards Track)
+
+     xxx 2019        Submit informational specification for Matroska container
+                format versions 1, 2 and 3 to IESG for publication
+
+     xxx 2019        Submit specification for FLAC audio codec to IESG (Standards Track)
+                   draft-xiph-cellar-flac
+
+     xxx 2019        Submit specification for Matroska container format
+                   version 4 to IESG (Standards Track)
+                   draft-lhomme-cellar-matroska
+
+	Do we need another WG document for AV1 codec?
+	Would be ready as soon as we settle with MP4.... (iso-bmmf)
+	(How does AV1 go into MP4, and how it goes into Matroska)
+
+Why would we need another document, rather than use the CODEC registry in matroska?
+ SL: there are more details than fit, and maybe each codec needs a document
+     to explain how it fits in.
+ DR: Recommend we add av1 to CODEC registry in matroska as well
+ SL: agrees
+
+What would be appropriate values for xxx above?                   (for now, April 2019)
+
+7. responses/plan to address GENART review of ffv1.
+
+ACTION:
+     - pseudo-code vs narative.
+     - IANA registries and values for EBML Header vs Document.
+     - update milestones.
+     - new document for AV1. (SL)
+     - Add AV1 to CODEC registry.
+     -

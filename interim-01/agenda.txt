@@ -1,0 +1,70 @@
+CELLAR -- Agenda for Virtual Interim Meeting
+May 29, 2018
+
+INFO:
+https://datatracker.ietf.org/meeting/interim-2018-cellar-01/materials/agenda-interim-2018-cellar-01-cellar-01
+
+WEBEX:
+	https://ietf.webex.com/ietf/j.php?MTID=m7b0a6e8d394a8310c3d98a728b1918fe
+	Meeting number (access code): 313 505 170
+	Host key: 763872
+	Meeting password: dq64cWsm
+
+	JOIN BY PHONE
+	1-877-668-4493 Call-in toll free number (US/Canada) 
+	1-650-479-3208 Call-in toll number (US/Canada)
+
+(If you want to try your system in advance of the meeting time, please
+email me unicast.  The latest webex supports webrtc)
+
+Agenda:
+
+1. Note Well.
+2. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.tools.ietf.org/p/notes-cellar-virtual01?useMonospaceFont=true
+
+   2b) Roll call
+
+3. Status of draft-ietf-cellar-ebml-04 document.
+   - Is it ready?
+   - Open Issue: #48	NEED Proposed Text 
+     add section for handling bad data
+     https://github.com/Matroska-Org/ebml-specification/issues/48
+     
+   - Open Issue: #157	NEED Proposed Text.
+     Define DoctypeVersion 0 as invalid/experimental
+     https://github.com/Matroska-Org/ebml-specification/issues/157
+
+   - General topic of Security Considerations section (which is now part of the draft)
+     - Do we need to define a maximum nesting depth?
+     - Should VINT be canonically the shortest representation possible?
+
+   - Need to add IANA registry for EBML binary tag names
+     What is the amenda formula?  (MCR will propose IANA considerations text
+     to list)
+     https://www.ietf.org/mail-archive/web/cellar/current/msg01269.html
+
+4. Status of draft-ietf-cellar-ffv1-02  (version 0,1,3) -- legacy format.
+   - Is this two documents from one source really working for everyone?
+     	- should we just fork repo?
+   - Can we publish this document without waiting for -v4?
+   - Need to change this to Informational: Discussion.
+   
+5. Status of draft-ietf-cellar-ffv1-v4-00
+   - This version is IETF Standards Track.
+   - what documents depend upon this document?
+   
+6. Status of draft-lhomme-cellar-codec-00
+   WG adoption?
+   
+7. Status of draft-lhomme-cellar-matroska-04
+   WG adoption, can it proceed without ffv1-v4?
+   
+8. Status of draft-lhomme-cellar-tags-00
+   WG adoption, can it proceed without ffv1-v4?
+
+
+
+
+
