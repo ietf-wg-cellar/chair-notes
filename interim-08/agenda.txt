@@ -4,7 +4,7 @@ December 18, 2018        20:00 UTC
 
 INFO:
         https://datatracker.ietf.org/meeting/interim-2018-cellar-08/session/cellar
-        https://datatracker.ietf.org/doc/agenda-interim-2018-cellar-06-cellar-02/
+        https://datatracker.ietf.org/doc/agenda-interim-2018-cellar-08-cellar-02/
 
 WEBEX:
         https://ietf.webex.com/ietf/j.php?MTID=mee216fb7cc5c23345dcc865aa0ed95fb
