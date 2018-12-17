@@ -1,4 +1,3 @@
-From: Michael Richardson <mcr+ietf at sandelman.ca>
 To: cellar at ietf.org
 Date: Wed, 22 Aug 2018 22:51:55 -0400
 List-id: Codec Encoding for LossLess Archiving and Realtime transmission

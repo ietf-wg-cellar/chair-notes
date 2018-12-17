@@ -1,0 +1,44 @@
+
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+December 18, 2018        20:00 UTC
+
+INFO:
+        https://datatracker.ietf.org/meeting/interim-2018-cellar-08/session/cellar
+        https://datatracker.ietf.org/doc/agenda-interim-2018-cellar-06-cellar-02/
+
+WEBEX:
+        https://ietf.webex.com/ietf/j.php?MTID=mee216fb7cc5c23345dcc865aa0ed95fb
+        Meeting number: 647 787 756
+        Meeting password: WYsDQ3VF
+        Audio connection: 1-650-479-3208 Call-in toll number (US/Canada)
+        Access code: 647 787 756
+
+Proposed Agenda:
+
+1. Note Well.
+
+2. Accept draft minutes from September meeting
+
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.tools.ietf.org/p/notes-cellar-virtual04?useMonospaceFont=true
+
+   2b) Roll call
+
+4. WG status update
+   - EBML is now in IESG publication queue.
+   - work on Matroska and FFV1 issues!!
+   - confirm list of dates for meetings:
+       2019-01-29
+       2019-02-26
+       2019-03-26
+
+
+5. https://github.com/FFmpeg/FFV1/issues
+   - new v1 was posted in September, are there still issues with v1?
+
+6. https://github.com/Matroska-Org/matroska-specification/issues
+   - what new issues?
+
+7. Any other Business.
+
