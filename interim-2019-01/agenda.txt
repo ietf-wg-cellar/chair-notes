@@ -1,0 +1,47 @@
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+January 29, 2019        20:00 UTC
+
+
+DRAFT MINUTES FROM 2018-12-18 meeting will be posted as soon as I find them
+and/or etherpad is fixed.
+
+INFO:
+     https://datatracker.ietf.org/meeting/interim-2019-cellar-01/session/cellar
+     https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-01-cellar-02/
+
+WEB CONFERENCE:
+   https://appear.in/cellar-interim
+   THERE IS NO TELEPHONE DIALIN
+   You can try this at any time.
+
+Proposed Agenda:
+
+1. Note Well.
+2. Accept draft minutes from December meeting
+
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.tools.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+   2b) APPEAR.IN for video and screen sharing.
+       https://appear.in/cellar-interim
+       (as agreed last meeting)
+
+   2c) Roll call
+
+4. WG status update
+   - EBML is now in IESG publication queue.
+   - work on Matroska and FFV1 issues!!
+   - confirm list of dates for meetings:
+       2019-01-29
+       2019-02-26
+       2019-04-02       *NEW DATE*
+
+5. Dave Rice on updates to EBML to address AD comments.
+
+6. Steve LHome on Matroska document changes since last meeting.
+
+7. WG plans for advancing documents.
+
+
+
