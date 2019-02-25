@@ -11,6 +11,7 @@ WEB CONFERENCE:
    https://appear.in/cellar-interim
    THERE IS NO TELEPHONE DIALIN
    You can try this at any time.
+   These notes at: https://github.com/cellar-wg/chair-notes
 
 Proposed Agenda:
 
