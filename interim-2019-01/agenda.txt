@@ -7,7 +7,7 @@ and/or etherpad is fixed.
 
 INFO:
      https://datatracker.ietf.org/meeting/interim-2019-cellar-01/session/cellar
-     https://datatracker.ietf.org/meeting/interim-2019-cellar-01/materials/agenda-interim-2019-cellar-02-sessa
+     https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-01-sessa/
 
 WEB CONFERENCE:
    https://appear.in/cellar-interim

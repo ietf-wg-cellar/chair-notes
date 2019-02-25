@@ -1,0 +1,84 @@
+   CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+January 29, 2019        20:00 UTC
+
+
+DRAFT MINUTES FROM 2018-12-18 meeting will be posted as soon as I find them
+and/or etherpad is fixed.
+
+INFO:
+     https://datatracker.ietf.org/meeting/interim-2019-cellar-01/session/cellar
+     https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-01-sessa/
+
+WEB CONFERENCE:
+   https://appear.in/cellar-interim
+   THERE IS NO TELEPHONE DIALIN
+   You can try this at any time.
+   Probably best to turn off camera.
+   Set your name in the upper right.
+
+
+Attendees:
+* Michael Richardson
+* Jérôme Martinez
+* Dave Rice
+* Andrew Weaver
+* Michael Niedermayer
+* Reto Kromer
+* Steve Lhomme
+* 
+
+Proposed Agenda:
+
+1. Note Well.
+2. Accept draft minutes from December meeting
+	https://datatracker.ietf.org/doc/minutes-interim-2018-cellar-08-201812181500/
+	
+	
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.tools.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+   2b) APPEAR.IN for video and screen sharing.
+       https://appear.in/cellar-interim
+       (as agreed last meeting)
+
+   2c) Roll call
+
+4. WG status update
+   - EBML is now in IESG publication queue.
+   - work on Matroska and FFV1 issues!!
+   - confirm list of dates for meetings:
+       2019-01-29
+       2019-02-26
+       2019-04-02       *NEW DATE*
+       No objections. (Steve & Jerome)
+
+5. Dave Rice on updates to EBML to address AD comments.
+	- EBML draft is now updated to version 09 as of the 24th
+	- There's already many updates in github since 09, since version 10 will be very soon
+	- I'd say that about 90% of the AD review is resolved, with a few more either to do 
+	or in the pull request section to be finalized
+	- Yep typing away
+
+
+6. Steve LHomme on Matroska document changes since last meeting.
+
+ - split webm and divX out of this document
+ - not extensions in the ebml sense.
+ - we use fields in matroska which are not valid EBML, so we need to define them in the Matroska document.
+ - need a way to process the extra profiles
+ - 
+
+7. WG plans for advancing documents.
+
+  - ffv1 version 0,1,3 ---> WGLC?
+  - Michael finished the missing pieces, so now we are ready for more review.
+  - All remaining issues are for version 4.
+  - No relationship to Matroska document.
+  - Peter B may have offered in the past.  Peter Bubestinger <p.bubestinger@av-rd.com>
+
+* FLAC needs some work to turn it into an IETF-style specification.
+* Matroska is the new focus.
+
+
+
