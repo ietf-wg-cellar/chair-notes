@@ -1,0 +1,77 @@
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+Feburary 26, 2019        20:00 UTC
+
+   Probably best to turn off camera.
+   Set your name in the upper right.
+
+
+Attendees:
+* Michael Richardson
+* Steve Lhomme
+* Jérôme Martinez
+* Dave Rice
+* Michael Niedermayer
+* sign-in here
+
+
+INFO:
+   https://datatracker.ietf.org/meeting/interim-2019-cellar-02/session/cellar
+   https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-02-sessa/
+
+WEB CONFERENCE:
+   https://appear.in/cellar-interim
+   THERE IS NO TELEPHONE DIALIN
+   You can try this at any time.
+   These notes at: https://github.com/cellar-wg/chair-notes
+
+Proposed Agenda:
+
+1. Note Well.
+
+2a. Accept draft minutes from December meeting  -- accepted unanimously
+2b. Accept draft minutes from January meeting   -- accepted unanumously
+
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.tools.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+   2b) APPEAR.IN for video and screen sharing.
+       https://appear.in/cellar-interim
+       (as agreed last meeting)
+
+   2c) Roll call
+
+4. WG status update
+   - EBML is waiting on AD to proceed
+	   AD will change from Ben Campbell to one of: Barry Leiba, Adam Roach, or Alexey Melnikov
+      -10 will come out this week, with changes asked for Robert Sparks
+      -change "general format"... need a better introduction which narrows the scope.
+      
+   - ffv1: 2 week WGLC. No objections.
+      - Peter is the Shepherd, and posted first version today.  
+      -- sent his own pull request, Jerome will take care of this, post new version.
+
+5. EBML IANA concerns raised with Matroska.
+
+  - the top-elements of EBML should be reserved in all "children" document, Steve Lhomme created a pull request to EBML.
+  -- Dave approved this and it will be in -10.
+  - mention in the Matroska spec that we must not use reserved EBML ID from the EBML spec
+
+6. Steve LHomme on Matroska document changes since last meeting.
+
+  - not a lot of work on it in the past month... Andreas has been working on it too in the last month.
+  - 
+
+7. WG plans for advancing documents.
+
+ - address EBML issues, get it into IESG publication queue.
+ - send ffv1 to AD/IESG before IETF104.  (legacy protocol)
+
+Q: someone sent a security review https://mailarchive.ietf.org/arch/msg/cellar/Dnr_x0oOTToyd8mRwlx0l1ul1Lc
+	https://datatracker.ietf.org/wg/cellar/archives/
+
+      https://datatracker.ietf.org/wg/cellar/about/
+      
+      
+Next meeting April 2, and then April 30.
+
