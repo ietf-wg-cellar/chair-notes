@@ -1,11 +1,11 @@
 CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
-Feburary 26, 2019        20:00 UTC
+April 2, 2019        20:00 UTC
 
 DRAFT MINUTES FROM 2019-02-26 below
 
 INFO:
-   https://datatracker.ietf.org/meeting/interim-2019-cellar-02/session/cellar
-   https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-02-sessa/
+   https://datatracker.ietf.org/meeting/interim-2019-cellar-03/session/cellar
+   https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-03-sessa/
 
 WEB CONFERENCE:
    https://appear.in/cellar-interim
@@ -31,132 +31,43 @@ Proposed Agenda:
 
 4. WG status update
    - EBML is waiting on AD to proceed
+   - FFv1 is past WGLC and awaits AD attention
+   - new AD is Alexey.Melnikov at isode.com
 
-5. EBML IANA concerns raised with Matroska.
+5. issues raised and/or closed since Feb 26
 
-6. Steve LHome on Matroska document changes since last meeting.
+CELLAR -- DRAFT MINUTES for Virtual Interim Meeting
+Feburary 26, 2019        20:00 UTC
 
-7. WG plans for advancing documents.
-
-
-====== minutes from December.
-CELLAR -- Agenda for Virtual Interim Meeting
-August 28, 2018        20:00 UTC
-
-INFO:
-        https://datatracker.ietf.org/meeting/interim-2018-cellar-04/session/cellar
-
-WEBEX:
-        Meeting number: 313 505 170
-        Meeting password: dq64cWsm
-        Meeting link:
-        https://ietf.webex.com/ietf/j.php?MTID=me21026faa14be85507cdef66b860014e
-        Host key: 763872
-        Audio connection:
-        1-650-479-3208 Call-in toll number (US/Canada)
-
-Attendees:
-	* Michael Richardson
-	* Jérôme Martinez
-	* Martin Below
-	* Dave Rice (as call-in user)
-	* Tim Terriberry
-	* Steve Lhomme
-	* <PLEASE SIGN YOUR NAME HERE>
-
-Missing:
-
-Regrets:
-	* Moritz Bunkus
-	* Reto Kromer
-	* Michael Niedermayer
-
-
-
-Agenda:
-
-1. Note Well.    https://www.ietf.org/about/note-well/
-Proposed Agenda:
-
-1. Note Well.
-
-2. Accept draft minutes from September meeting
-	https://datatracker.ietf.org/meeting/interim-2018-cellar-05/materials/minutes-interim-2018-cellar-05-201809252000
-		taken as written.
-
-3. Logistics for Meeting.
-   2a) Etherpad for notes
-       https://etherpad.tools.ietf.org/p/notes-cellar-virtual04?useMonospaceFont=true
-
-   2b) Roll call
-   c) March meeting in March 26. 20:00 UTC.  Preference to meetecho... webrtc based.
-      21:00 UTC.
-
-4. WG status update
-   - EBML is now in IESG publication queue. Thx to Steven Villereal for the shepherd writeup.
-   Shepherd writeup: https://datatracker.ietf.org/doc/draft-ietf-cellar-ebml/shepherdwriteup/
-   - work on Matroska and FFV1 issues!!
-   Preview of xml2rfc v3 for FFV1 is at https://htmlpreview.github.io/?https://gist.githubusercontent.com/dericed/5ce9c949eeec9042a4ac5e2b222f1cc0/raw/b315b8d3f5c4b06ecf656fc1fb7e9ad9bd6fd88c/draft-ietf-cellar-ffv1-06.html.
-   - confirm list of dates for meetings:
-       2019-01-29
-       2019-02-26
-       2019-03-26
-
-
-5. https://github.com/FFmpeg/FFV1/issues  (without a version):
-   - new v0,1,3 was posted in September, are there still issues with v1?
-   - Jerome still has to work to do on 0,1,3 version.
-   - https://github.com/FFmpeg/FFV1/pull/100  new feature for v3.  Could be an extension done later on?
-   - https://github.com/FFmpeg/FFV1/pull/111  CRITICAL PATH. Jerome.
-  - hoping to get into WGLC by mid-January.
-
-6. https://github.com/Matroska-Org/matroska-specification/issues
-   - what new issues?
-   - 29 issues open.
-   - draft-ietf-cellar-tags-00
-   - draft-ietf-cellar-codec-00
-   - draft-ietf-cellar-matroska-01   (165 pages. Maybe it could be broken up further)
-
-
-7. Any other Business.
-  https://appear.in/cellar-interim   We have Tim, Steve, MCR, Jerome, Martin,... Dave missing.
-
-====== minutes from January
-   CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
-January 29, 2019        20:00 UTC
-
-
-DRAFT MINUTES FROM 2018-12-18 meeting will be posted as soon as I find them
-and/or etherpad is fixed.
-
-INFO:
-     https://datatracker.ietf.org/meeting/interim-2019-cellar-01/session/cellar
-     https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-01-sessa/
-
-WEB CONFERENCE:
-   https://appear.in/cellar-interim
-   THERE IS NO TELEPHONE DIALIN
-   You can try this at any time.
    Probably best to turn off camera.
    Set your name in the upper right.
 
 
 Attendees:
 * Michael Richardson
+* Steve Lhomme
 * Jérôme Martinez
 * Dave Rice
-* Andrew Weaver
 * Michael Niedermayer
-* Reto Kromer
-* Steve Lhomme
-*
+* sign-in here
+
+
+INFO:
+   https://datatracker.ietf.org/meeting/interim-2019-cellar-02/session/cellar
+   https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-02-sessa/
+
+WEB CONFERENCE:
+   https://appear.in/cellar-interim
+   THERE IS NO TELEPHONE DIALIN
+   You can try this at any time.
+   These notes at: https://github.com/cellar-wg/chair-notes
 
 Proposed Agenda:
 
 1. Note Well.
-2. Accept draft minutes from December meeting
-	https://datatracker.ietf.org/doc/minutes-interim-2018-cellar-08-201812181500/
 
+2a. Accept draft minutes from December meeting  -- accepted unanimously
+2b. Accept draft minutes from January meeting   -- accepted unanumously
 
 3. Logistics for Meeting.
    2a) Etherpad for notes
@@ -169,47 +80,36 @@ Proposed Agenda:
    2c) Roll call
 
 4. WG status update
-   - EBML is now in IESG publication queue.
-   - work on Matroska and FFV1 issues!!
-   - confirm list of dates for meetings:
-       2019-01-29
-       2019-02-26
-       2019-04-02       *NEW DATE*
-       No objections. (Steve & Jerome)
+   - EBML is waiting on AD to proceed
+	   AD will change from Ben Campbell to one of: Barry Leiba, Adam Roach, or Alexey Melnikov
+      -10 will come out this week, with changes asked for Robert Sparks
+      -change "general format"... need a better introduction which narrows the scope.
+      
+   - ffv1: 2 week WGLC. No objections.
+      - Peter is the Shepherd, and posted first version today.  
+      -- sent his own pull request, Jerome will take care of this, post new version.
 
-5. Dave Rice on updates to EBML to address AD comments.
-	- EBML draft is now updated to version 09 as of the 24th
-	- There's already many updates in github since 09, since version 10 will be very soon
-	- I'd say that about 90% of the AD review is resolved, with a few more either to do
-	or in the pull request section to be finalized
-	- Yep typing away
+5. EBML IANA concerns raised with Matroska.
 
+  - the top-elements of EBML should be reserved in all "children" document, Steve Lhomme created a pull request to EBML.
+  -- Dave approved this and it will be in -10.
+  - mention in the Matroska spec that we must not use reserved EBML ID from the EBML spec
 
 6. Steve LHomme on Matroska document changes since last meeting.
 
- - split webm and divX out of this document
- - not extensions in the ebml sense.
- - we use fields in matroska which are not valid EBML, so we need to define them in the Matroska document.
- - need a way to process the extra profiles
- -
+  - not a lot of work on it in the past month... Andreas has been working on it too in the last month.
+  - 
 
 7. WG plans for advancing documents.
 
-  - ffv1 version 0,1,3 ---> WGLC?
-  - Michael finished the missing pieces, so now we are ready for more review.
-  - All remaining issues are for version 4.
-  - No relationship to Matroska document.
-  - Peter B may have offered in the past.  Peter Bubestinger <p.bubestinger@av-rd.com>
+ - address EBML issues, get it into IESG publication queue.
+ - send ffv1 to AD/IESG before IETF104.  (legacy protocol)
 
-* FLAC needs some work to turn it into an IETF-style specification.
-* Matroska is the new focus.
+Q: someone sent a security review https://mailarchive.ietf.org/arch/msg/cellar/Dnr_x0oOTToyd8mRwlx0l1ul1Lc
+	https://datatracker.ietf.org/wg/cellar/archives/
 
-
-
-
-
-
-
-
-
+      https://datatracker.ietf.org/wg/cellar/about/
+      
+      
+Next meeting April 2, and then April 30.
 
