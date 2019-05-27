@@ -1,0 +1,116 @@
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+May 28, 2019        20:00 UTC
+
+INFO:
+   https://datatracker.ietf.org/meeting/interim-2019-cellar-04/session/cellar
+   https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-04-sessa/
+
+WEB CONFERENCE:
+   https://appear.in/cellar-interim
+   THERE IS NO TELEPHONE DIALIN
+   You can try this at any time.
+   These notes at: https://github.com/cellar-wg/chair-notes
+
+Proposed Agenda:
+
+1. Note Well.
+2. Accept draft minutes from April 2 meeting
+
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.tools.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+   2b) APPEAR.IN for video and screen sharing.
+       https://appear.in/cellar-interim
+       (as agreed last meeting)
+
+   2c) Roll call
+
+4. WG status update
+   - EBML seems to be getting some additional edits, is it done?
+     These were the issues that are waiting for clarification:
+        https://github.com/Matroska-Org/ebml-specification/issues?q=is%3Aissue+is%3Aopen+label%3Aclarifications
+     We still have a few open.  Can we close them now?
+     Dave Rice expected to push version 10.
+
+5. Matroska document changes since last meeting.
+   https://github.com/cellar-wg/matroska-specification/issues
+   Can we close some of these, and/or get them sorted and prioritized?
+
+6. Started 4-week adopting call for Free Lossless Audio Codec
+      draft-weaver-cellar-flac-00
+   will end at next virtual-interim meeting.
+
+
+====== minutes from April
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+April 2, 2019        20:00 UTC
+
+DRAFT MINUTES FROM 2019-02-26 below
+
+INFO:
+   https://datatracker.ietf.org/meeting/interim-2019-cellar-03/session/cellar
+   https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-03-sessa/
+
+WEB CONFERENCE:
+   https://appear.in/cellar-interim
+   THERE IS NO TELEPHONE DIALIN
+   You can try this at any time.
+   These notes at: https://github.com/cellar-wg/chair-notes
+
+
+Attendees:
+* Michael Richardson
+* Steve Lhomme
+* Jérôme Martinez
+* Michael Niedermayer
+* sign-in here
+
+Names for above:
+* Dave Rice (regrets)
+
+
+
+Proposed Agenda:
+
+1. Note Well.
+	https://www.ietf.org/about/note-well/
+
+2. Accept draft minutes from February meeting
+      see them here, and in email: https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-03-sessa/
+      agreed without objections.
+
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.tools.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+   2b) APPEAR.IN for video and screen sharing.
+       https://appear.in/cellar-interim
+       (as agreed last meeting)
+
+   2c) Roll call
+
+4. WG status update
+   - EBML is waiting on AD to proceed
+	   version 10 is pending, and waiting for some review of this.
+	These are the issues that are waiting for clarification.
+	https://github.com/Matroska-Org/ebml-specification/issues?q=is%3Aissue+is%3Aopen+label%3Aclarifications
+	   Dave Rice to push version 10.
+
+	   version 10 to be produced with with closed issues, including formatting changes, and a version 11 with not yet discussed.
+	   summary on what was fixed:
+	  with links to PRs and explanations for each
+	goal to have this out this first week of April.
+
+   - FFv1 is past WGLC and awaits AD attention
+   - new AD is Alexey.Melnikov at isode.com
+
+5. use of cellar-wg organization
+	ebml and matroska repo will be moved to cellar-wg organization.
+
+6. issues raised and/or closed since Feb 26
+
+-- are we ready for WG adoption on FLAC document?
+
+
+
