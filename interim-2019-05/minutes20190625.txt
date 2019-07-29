@@ -1,0 +1,150 @@
+	CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+	June 25, 2019        20:00 UTC
+	
+	INFO:
+	   https://datatracker.ietf.org/meeting/interim-2019-cellar-05/session/cellar
+	   https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-05-sessa/
+	
+	WEB CONFERENCE:
+	   https://appear.in/cellar-interim
+	   THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+	   These notes at: https://github.com/cellar-wg/chair-notes
+	
+	
+	Present:
+		1) Michael Richardson
+		2) Moritz Bunkus
+		3) Martin Below
+		4) Steve Lhomme
+		5) Dave Rice
+		6) Jérôme Martinez
+		
+Regrets:
+    1) Reto Kromer
+
+	
+	1. Note Well.
+	2. Accept draft minutes from May 28 meeting
+		accepted without change.
+	
+	3. Logistics for Meeting.
+	   2a) Etherpad for notes
+	       https://etherpad.tools.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+	
+	   2b) APPEAR.IN for video and screen sharing.
+	       https://appear.in/cellar-interim
+	
+	   2c) Roll call
+	
+4. WG status update
+	   * MCR still need to help Martin on large pull request.
+	   * EBML changes... done.
+		+ issue #257, requested one more day to think about it. The changes are fine in general, but want to make sure it precise enough. (MB)
+	   * ffv1 has been submitted to IESG by AD.
+	
+5. Work on Matroska issues.
+	      48 open issues
+	      21 open pull requests
+		https://github.com/cellar-wg/matroska-specification/issues
+		
+		Next time, Steve will walk us through XSLT code to validate the specification.
+TAG:
+     "format extension"   suggestion that does not have to go into the main spec, because it could be added as separate spec   https://github.com/cellar-wg/matroska-specification/issues?q=is%3Aissue+is%3Aopen+label%3A%22format+extension%22
+	"format addition"     something that has to go into main specification.   https://github.com/cellar-wg/matroska-specification/issues?q=is%3Aissue+is%3Aopen+label%3A%22format+addition%22
+	
+* As the WebM will not be defined, remove all of the WebM specific stuff.
+	* MCR suggests removing it from the Matroska document, and leave the history for others.
+	* MB: DivX is also not part of Matroska.  Also concerned about how the Matroska project presents the WebM/DiVX vs core Matroska elements.   The spec will be huge, so take things out.
+
+* define how to add unpredictable data to the Matroska, so we could track things that are added.  Not just WebM, but also a libmotrsaka as well.
+* extension data would be on their own lines, and revision history would be clearly.
+
+		
+	6. Any other business.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	====
+	CELLAR -- DRAFT MINUTES for Virtual Interim Meeting
+	May 28, 2019        20:00 UTC
+	
+	INFO:
+	   https://datatracker.ietf.org/meeting/interim-2019-cellar-04/session/cellar
+	   https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-04-sessa/
+	
+	WEB CONFERENCE:
+	   https://appear.in/cellar-interim
+	   THERE IS NO TELEPHONE DIALIN
+	   You can try this at any time.
+	   These notes at: https://github.com/cellar-wg/chair-notes
+	
+	Present:
+	        1) michael richardson
+	        2) Steve Lhomme
+	        3) Martin Below
+	        4) Jerome Martinez
+	        5) Dave Rice
+	        6)  Michael Niedermayer
+	
+	Proposed Agenda:
+	
+	1. Note Well.
+	2. Accept draft minutes from April 2 meeting
+	
+	3. Logistics for Meeting.
+	   2a) Etherpad for notes
+	       https://etherpad.tools.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+	
+	   2b) APPEAR.IN for video and screen sharing.
+	       https://appear.in/cellar-interim
+	       (as agreed last meeting)
+	
+	   2c) Roll call
+	
+	4. WG status update
+	   - EBML seems to be getting some additional edits, is it done?
+	     These were the issues that are waiting for clarification:
+	        https://github.com/Matroska-Org/ebml-specification/issues?q=is%3Aissue+is%3Aopen+label%3Aclarifications
+	     We still have a few open.  Can we close them now?
+	     Dave Rice expected to push version 10....
+	     VERSION 10 released 2019-05-28 (https://datatracker.ietf.org/doc/draft-ietf-cellar-ebml/10/).  Merged many issues.
+	     This addresses AD issues from Ben Campbell and Robert Sparks.... remaining 2
+	      11.1.11.  XML Schema for EBML Schema (Dave volunteers to complete this)
+	            The following "XSD" definition is in <FORMAT> (add W3C citation), and can be used to validate an EBML Schema using <TOOL>
+	
+	        The use of unknown-size requires to know the EBML Schema. Add an example of unknown-size element.
+	
+	Michael will contact Martin in the coming days/weeks to work on his large chapter pull request.
+	
+	5. Matroska document changes since last meeting.
+	   https://github.com/cellar-wg/matroska-specification/issues
+	   Can we close some of these, and/or get them sorted and prioritized?
+	
+	   a) Dave Rice to post request for volunteers, offers to mentor.
+	   b) MCR to mentor Martin on github-fu
+	   c) all to review pull requests on Matroska, look for conflicts and *discussion* (new tag) that we can go through next time.
+	   d) MCR to ping Moritz about next time.
+	
+	6. Started 4-week adopting call for Free Lossless Audio Codec
+	      draft-weaver-cellar-flac-00
+	   will end at next virtual-interim meeting.
+	
+	           please post your opinion about the document? Does it fit into what the charter asked for?
+	
+	Q: ffv1. last meeting new AD?
+	A: we are waiting for feedback.
+	ACTION: mcr to bug AD about ffv1.
+	
+	meeting ended 16:55.
+	
+	
+	
+	
