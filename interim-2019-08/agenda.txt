@@ -1,0 +1,189 @@
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+September 24, 2019     19:00 UTC
+                       21:00 Amsterdam
+                       15:00 NYC
+                       12:00 San Francisco
+
+   NOTE new regular time.
+
+INFO:
+   https://datatracker.ietf.org/meeting/interim-2019-cellar-08/session/cellar
+   https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-08-sessa/
+
+WEB CONFERENCE:
+   https://appear.in/cellar-interim
+   THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+   These notes at: https://github.com/cellar-wg/chair-notes
+
+1. Note Well.
+2. Accept draft minutes from July 30 meeting (attached below)
+
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+   2b) APPEAR.IN is not called "whereby.com"
+       https://whereby.com/cellar-interim
+
+   2c) Roll call
+
+4. WG status update
+   * EBML -- STILL WAITING ON REVISED -11 document for AD evaluation.
+
+5. Remining EBML issues, hoping for none.
+      Issue #279 https://github.com/cellar-wg/ebml-specification/issues/279
+      Pull request: https://github.com/cellar-wg/ebml-specification/pull/281
+
+5. Work on Matroska issues.
+
+6. Any other business.
+
+====
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+August 27, 2019        19:00 UTC
+	                       21:00 Amsterdam
+	                       15:00 NYC
+	                       12:00 San Francisco
+
+	NOTE this is one hour earlier than last time!
+
+Participants:
+    1) Michael Richardson
+    2) Martin Below
+    3) Steve Lhomme
+    4) Michael Niedermayer
+    5) Dave Rice
+    6) Reto Kromer
+    7) Jerome Martinez
+    8) Benjamin Turkus
+
+Regrets:
+    1) Moritz Bunkus
+
+
+	INFO:
+	   https://datatracker.ietf.org/meeting/interim-2019-cellar-07/session/cellar
+	   https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-07-sessa/
+
+	WEB CONFERENCE:
+	   https://appear.in/cellar-interim
+	   THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+	   These notes at: https://github.com/cellar-wg/chair-notes
+
+	1. Note Well.
+	2. Accept draft minutes from July 30 meeting (attached below)
+	minutes accepted.
+	Agenda amended to include FFV1.
+
+	3. Logistics for Meeting.
+	   2a) Etherpad for notes
+	       https://etherpad.tools.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+	   2b) APPEAR.IN is now called "whereby.com"
+	       https://whereby.com/cellar-interim
+
+	   2c) Roll call
+
+	4. WG status update
+	   * EBML -- still waiting on revised -11 document for AD evaluation.
+	   We had a lot of conversation last time about solving this logjam.
+	   Much work on it 2019-08-26, is it done?
+
+	5. Remining EBML issues, hoping for none.
+	      Issue #279 https://github.com/cellar-wg/ebml-specification/issues/279
+	      Pull request: https://github.com/cellar-wg/ebml-specification/pull/281
+	ACTION: Dave will review the rest of the document to ensure that allowing Global Elements at
+				Root Element is consistent with the rest of the document.
+			(also will ping Moritz)
+
+	5. FFV1
+	--> https://mailarchive.ietf.org/arch/msg/cellar/noQ6X-9GPJ3yB3jSeLeHHMwOgh8
+	--> how will SVG be sent to datatracker if the SVG are not embedded?
+	-->
+
+	6. Work on Matroska issues.
+
+	ACTION: #335 Agree that NextUID is the way to use hard-linking, PrevUID is used as a safety for
+				recovery of missing segments (optional).
+	ACTION: #287 will get additional examples from Dave Rice.
+
+	7. Any other business.
+
+	====
+	        CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+	        July 30, 2019        20:00 UTC
+
+	        Present:
+	                1) Michael Richardson
+	                2) Timothy B. Terriberry
+	                3) Steve Lhomme
+	                4) Martin Below
+	                5) Dave Rice
+	                6) Michael Niedermeier
+
+	Regrets:
+	            Jerome Martinez
+
+	        INFO:
+	           https://datatracker.ietf.org/meeting/interim-2019-cellar-06/session/cellar
+	           https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-06-sessa/
+
+	        WEB CONFERENCE:
+	           https://appear.in/cellar-interim
+	           THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+	           These notes at: https://github.com/cellar-wg/chair-notes
+
+	        1. Note Well.
+	                https://www.ietf.org/about/note-well/
+
+	        2. Accept draft minutes from June 25 meeting (attached below)
+	                No objections/changes, minutes passed.
+
+	        3. Logistics for Meeting.
+	           2a) Etherpad for notes
+	               https://etherpad.tools.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+	           2b) APPEAR.IN for video and screen sharing.
+	               https://appear.in/cellar-interim
+
+	           2c) Roll call
+
+	        4. WG status update
+	           * EBML -- still waiting on revised -11 document for AD evaluation.
+	        ACTION from last time:
+	                       ==> issue #257, requested one more day to think about it.
+	                                                The changes
+	                    are fine in general, but want to make sure it precise enough. (MB)
+
+	        We created issue #279 to introduce some new text to better explain what a Global Element is, and why it does not end an unlimited size Element.
+
+	           * Thank for reposting of draft-ietf-cellar-tags-02,
+	                 draft-ietf-cellar-matroska-03  and draft-ietf-cellar-codec-02
+
+	           * The personal draft-weaver-cellar-flac-00 did not get reposted.
+	             I believe that we adopted it, so it should have been reposted with a
+	             draft-ietf-cellar-flac-00!
+
+	        reposted today, thank you.
+
+	        5. Any remining EBML issues.
+
+	        none known.
+
+	        6. ffv1-07 could be reposted in v3 format.
+	        ACTION: mcr to ask DataTracker and RSE if they are ready for this.
+
+	        7. Work on Matroska issues.
+
+	        Closed issue #325 (merged).
+	        Discussed issue #334 and related issue #308.
+
+	        8. Any other business.
+
+	        Matroska Pull request #318 will be on the agenda for next time.
+
+	        Meeting will be moved to an hour earlier, until the time changes.
+	        Currently it is 23:00 Berlin, so we will anchor the meeting to 22:00 Berlin time.
+
+
+
