@@ -1,0 +1,147 @@
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+September 24, 2019     19:00 UTC
+                       21:00 Amsterdam
+                       15:00 NYC
+                       12:00 San Francisco
+
+   NOTE new regular time.
+
+INFO:
+   https://datatracker.ietf.org/meeting/interim-2019-cellar-08/session/cellar
+   https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-08-sessa/
+
+WEB CONFERENCE:
+   https://appear.in/cellar-interim
+   THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+   These notes at: https://github.com/cellar-wg/chair-notes
+   
+   
+Participants/Roll Call:
+	1) Michael Richardson
+	2) Steve Lhomme
+	3) Timothy Terriberry
+	4) Martin Below
+	5) Dave Rice
+	6) Reto Kromer
+	7) Jerome Martinez
+
+0) onlinemictest.com
+
+1. Note Well ... https://www.ietf.org/about/note-well/
+
+2. Accept draft minutes from August 27 meeting (attached below)
+
+	Approved.
+
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+   2b) APPEAR.IN is now called "whereby.com"
+       https://whereby.com/cellar-interim
+
+   2c) Roll call
+
+4. WG status update
+   * EBML -- STILL WAITING ON REVISED -11 document for AD evaluation.
+	Reworked the outstanding issues. Both reworked.
+	One (#257) was merged today by Dave.
+	Second one: #281.  Merged now!
+	Version 11 is posted at https://datatracker.ietf.org/doc/draft-ietf-cellar-ebml/ as of Sept. 24, 2019.
+
+5. Remining EBML issues, hoping for none.
+      Issue #279 https://github.com/cellar-wg/ebml-specification/issues/279  CLOSED.
+      Pull request: https://github.com/cellar-wg/ebml-specification/pull/281 DONE.
+
+	needs (older) mmark 2.0.40 to build, not latest. (2.1.1 also works)
+	bootstrap shell script will download correct one.
+	
+6. Work on Matroska issues.
+
+	        ACTION: #335 Agree that NextUID is the way to use hard-linking, PrevUID is used as a safety for
+	                                recovery of missing segments (optional).
+		---> resulted in pull request #343.  Closed after discussion.
+		
+	        ACTION: #287 will get additional examples from Dave Rice.
+
+7. Any other business.
+
+	- ffv1 (0,1,3). trying to post the PDF to the Datatracker.
+	- 
+
+8.    Next meeting was 2019-10-29, will be moved to 2019-10-22.
+
+9. UTF-8 issue in XML reference files from IETF tools for XHTML1.1 to report
+
+====
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+August 27, 2019        19:00 UTC
+                               21:00 Amsterdam
+                               15:00 NYC
+                               12:00 San Francisco
+
+        NOTE this is one hour earlier than last time!
+
+Participants:
+    1) Michael Richardson
+    2) Martin Below
+    3) Steve Lhomme
+    4) Michael Niedermayer
+    5) Dave Rice
+    6) Reto Kromer
+    7) Jerome Martinez
+    8) Benjamin Turkus
+
+Regrets:
+    1) Moritz Bunkus
+
+
+        INFO:
+           https://datatracker.ietf.org/meeting/interim-2019-cellar-07/session/cellar
+           https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-07-sessa/
+
+        WEB CONFERENCE:
+           https://appear.in/cellar-interim
+           THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+           These notes at: https://github.com/cellar-wg/chair-notes
+
+        1. Note Well.
+        2. Accept draft minutes from July 30 meeting (attached below)
+        minutes accepted.
+        Agenda amended to include FFV1.
+
+        3. Logistics for Meeting.
+           2a) Etherpad for notes
+               https://etherpad.tools.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+           2b) APPEAR.IN is now called "whereby.com"
+               https://whereby.com/cellar-interim
+
+           2c) Roll call
+
+        4. WG status update
+           * EBML -- still waiting on revised -11 document for AD evaluation.
+           We had a lot of conversation last time about solving this logjam.
+           Much work on it 2019-08-26, is it done?
+
+        5. Remining EBML issues, hoping for none.
+              Issue #279 https://github.com/cellar-wg/ebml-specification/issues/279
+              Pull request: https://github.com/cellar-wg/ebml-specification/pull/281
+        ACTION: Dave will review the rest of the document to ensure that allowing Global Elements at
+                                Root Element is consistent with the rest of the document.
+                        (also will ping Moritz)
+
+        5. FFV1
+        --> https://mailarchive.ietf.org/arch/msg/cellar/noQ6X-9GPJ3yB3jSeLeHHMwOgh8
+        --> how will SVG be sent to datatracker if the SVG are not embedded?
+        -->
+
+        6. Work on Matroska issues.
+
+        ACTION: #335 Agree that NextUID is the way to use hard-linking, PrevUID is used as a safety for
+                                recovery of missing segments (optional).
+        ACTION: #287 will get additional examples from Dave Rice.
+
+        7. Any other business.
+
+
