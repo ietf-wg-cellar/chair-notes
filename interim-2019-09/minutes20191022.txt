@@ -1,0 +1,60 @@
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+October 22, 2019     19:00 UTC
+                       21:00 Amsterdam
+                       15:00 NYC
+                       12:00 San Francisco
+
+Present:
+	1. Michael Richardson
+	1. Martin Below
+	1. Jérôme Martinez
+	1. Steve Lhomme
+	1. Dave Rice
+
+
+
+INFO:
+   https://datatracker.ietf.org/meeting/interim-2019-cellar-09/session/cellar
+   https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-09-sessa/
+
+WEB CONFERENCE:
+    https://whereby.com/cellar-interim
+   THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+   These notes at: https://github.com/cellar-wg/chair-notes
+
+1. Note Well. https://www.ietf.org/about/note-well/
+2. Accept draft minutes from September 24 meeting (attached below)
+
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+   2b) APPEAR.IN is now called "whereby.com"
+       https://whereby.com/cellar-interim
+
+   2c) Roll call
+
+4. WG status update
+   * EBML -- version 13 was posted 2019-10-22, waiting for AD.
+   * FFV1  -- version 10 was posted 2019-10-10, waiting for AD.
+
+5. Interest in using gerrithub.io?
+   For non-CLI uses, github has limitations lacking a web-based rebase
+   process.  http://gerrithub.io/
+
+6. Work on Matroska issues.
+  ** now that EBML has provided the side-data container, we can start adding side-data types to Matroska.
+  ** Google (WEBM) has created some new blocks (for HDR information) in the container, and we need to make sure we do not collide.     https://github.com/cellar-wg/matroska-specification/issues/345
+		*** can we get them to coordinate better?
+		*** now it is finished, but we need to try again.  We could say that values up to 10 are reserved.
+
+EBML issue: implementation note default? publish a new version?
+mcr: says go ahead with new version as you wish.
+
+FFV1: still waiting, but there are some issues raised by new decoder for v3. And we should clarify the text.
+
+
+7. Any other business.
+
+NEXT meeting is 2019-12-03 moved to 2019-12-10.
+
