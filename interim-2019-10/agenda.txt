@@ -4,6 +4,9 @@ December 10, 2019      19:00 UTC
                        15:00 NYC
                        12:00 San Francisco
 
+REGRETS:
+     1) Reto Kromer
+
 INFO:
    https://datatracker.ietf.org/meeting/interim-2019-cellar-10/session/cellar
    https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-10-sessa/
@@ -28,8 +31,8 @@ WEB CONFERENCE:
 4. Establish meeting schedule for 2020!
 
 5. WG status update
-   * EBML -- version 13 was posted 2019-10-22, on IESG telechat for 2019-12-05
-   * FFV1 -- version 10 was posted 2019-10-23, waiting for AD writeup.
+   * EBML -- version 14 was posted 2019-12-02, on IESG telechat for 2019-12-05
+   * FFV1 -- version 11 was posted 2019-10-23, waiting for AD writeup.
 
 6. Work on Matroska issues.
 
