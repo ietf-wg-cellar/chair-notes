@@ -1,0 +1,154 @@
+
+
+
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+January  28, 2020      19:00 UTC
+                       21:00 Amsterdam  ***
+                       15:00 NYC
+                       12:00 San Francisco
+
+
+INFO:
+   https://datatracker.ietf.org/meeting/interim-2020-cellar-01/session/cellar
+   https://datatracker.ietf.org/doc/agenda-interim-2020-cellar-01-cellar-01/
+
+WEB CONFERENCE:
+   https://whereby.com/cellar-interim
+   THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+   These notes at: https://github.com/cellar-wg/chair-notes
+
+1. Note Well.  https://www.ietf.org/about/note-well/
+2. Accept draft minutes from December 10 meeting (attached below)
+
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+   2b) APPEAR.IN is not called "whereby.com"
+       https://whereby.com/cellar-interim
+
+   2c) Roll call
+
+4. Welcome to Spencer Dawkins.
+
+5. WG status update
+   * EBML -- version 16 was posted 2019-12-22,
+             on IESG telechat for 2019-12-16
+      https://datatracker.ietf.org/doc/draft-ietf-cellar-ebml/writeup/
+      https://datatracker.ietf.org/doc/draft-ietf-cellar-ebml/ballot/
+
+   * FFV1 -- version 11 was posted 2019-10-23, waiting for AD writeup.
+
+REVIEW oF IESG DISCUSS COMMENTS from Adam Roach.
+   Roman: "Section 1.  Please add a reference for WebM"
+
+ACTION: MCR to followup with Robert Sparks on IANA issue.
+  -> EBML is a "general purpose audio/video container"  Steve to fix #304.
+
+6. Work on Matroska issues.
+
+
+---- PREVIOUS NOTES
+
+  CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+  December 10, 2019      19:00 UTC
+                       21:00 Amsterdam
+                       15:00 NYC
+                       12:00 San Francisco
+
+REGRETS:
+     1) Reto Kromer
+
+PRESENT:
+    1) Michael Richardson
+    2) Benjamin Turkus
+    3) Dave Rice
+    4) Martin Below
+    5) Michael Niedermayer
+    6) Peter Bubestinger
+    7) Steve Lhomme
+    8) Jerome Martinez
+    9) Dante Bromkovsky
+
+
+INFO:
+   https://datatracker.ietf.org/meeting/interim-2019-cellar-10/session/cellar
+   https://datatracker.ietf.org/doc/agenda-interim-2019-cellar-10-sessa/
+
+WEB CONFERENCE:
+   https://whereby.com/cellar-interim
+   THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+   These notes at: https://github.com/cellar-wg/chair-notes
+
+1. Note Well.  https://www.ietf.org/about/note-well/
+2. Accept draft minutes from October 22 meeting (attached below)
+	no objections or changes noted.
+
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+   2b) APPEAR.IN is not called "whereby.com"
+       https://whereby.com/cellar-interim
+
+   2c) Roll call
+
+4. Establish meeting schedule for 2020!
+     Fourth tuesday of the month.  Starting January 28, 2020.
+     No meeting in July.
+     September meeting might be 22nd, at conference "No Time to Wait". (web page for the last one: https://mediaarea.net/NoTimeToWait4 , in Amsterdam 2020 September)
+     November meeting moved to Tuesday, December 1.
+
+5. WG status update
+   * EBML -- version 14 was posted 2019-12-02, on IESG telechat for 2019-12-05
+               --- deferred as document was too long for some IESG membes to get a handle on
+   * FFV1 -- version 11 was posted 2019-10-23, waiting for AD writeup.
+
+Dave Rice reports that changes that occured today was as a result of a review; some figures and tables are now cross-referenced more clearly.
+The same was done to ffv1.  Some help is needed to get appropriate captions on the tables.
+Robert Sparks asks that new versions not be updated until there are replies and instructions.
+ACTION: MCR to followup with Robert Sparks on IANA issue.
+  -> EBML is a "general purpose audio/video container"  Steve to fix #304.
+
+6. Work on Matroska issues.
+
+Split the main Matroska document to take the Chapters in another document?
+Only elements required for proper playback should be in the main document.
+Document 166 pages today.
+Chapters is 6 pages, section 11.  --- but the section is not finished.
+Core document 9.3.4 "Tracks" is pages 45->106.
+
+MCR: hears support for splitting the chapter off, but asks if there is really that much savings.
+Steve: we could make the document smaller by grouping things that have only one parent or one child, with some better transformation of the formatting.
+
+
+The chapters section is not finished, and there are lot of incomplete sections which will
+make the section significantly larger, and so splitting it off into another document may still be justified.
+It makes no sense to work on it now, but make the split off now.
+Steve will give it a try and see what the savings is, and if we have a lot references that break, but does not think that this is the case.
+Dave Rice is hesistant, not sure he sees enough of an advantage.
+Tags and Meta-data are developed asynchronously, but the chapters are not going to evolve in place.
+This issue will be deferred.
+
+Peter B:
+	ffv1 support in davinci / black-magic.  Would rather do this after the document is published. What is status?
+	did Derek's feedback about the implementation in GO make it back into the document.
+	DR: Yes, this went back into the document about three months ago.  This resulted in a few issues being created, and the review was very helpful.
+
+Noting that there are three decoders: ffmpeg, Derek-GO, and Jerome's decoder
+
+7. Any other business.
+
+7.1  Side Data Format for MKV
+	Benjamin: side data format for MKV!
+	Dave Rice: it is merged into Matroska, can add side data to frames.
+	Three competing things how to encode time code into the file. Related discussion at https://mailarchive.ietf.org/arch/browse/cellar/?q=matroska%20and%20side%20data%20vs%20timecode.
+	1) use side data. A debated proposal is at https://github.com/cellar-wg/matroska-specification/pull/348. (needsd to mentioned in main document) A sample of matroska with side data timecode is at https://github.com/Matroska-Org/matroska-test-files/pull/5.
+	2) meta-data tag or segment info(needs to be in main document)
+	3) seperate track (codec-like document)
+
+
+
+
+NEXT meeting is 2020-01-22,
+
