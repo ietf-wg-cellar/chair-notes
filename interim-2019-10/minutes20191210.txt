@@ -6,7 +6,7 @@ December 10, 2019      19:00 UTC
 
 REGRETS:
      1) Reto Kromer
-     
+
 PRESENT:
     1) Michael Richardson
     2) Benjamin Turkus
@@ -51,16 +51,16 @@ WEB CONFERENCE:
    * EBML -- version 14 was posted 2019-12-02, on IESG telechat for 2019-12-05
                --- deferred as document was too long for some IESG membes to get a handle on
    * FFV1 -- version 11 was posted 2019-10-23, waiting for AD writeup.
-   
-Dave Rice reports that changes that occured today was as a result of a review; some figures and tables are now cross-referenced more clearly.  
+
+Dave Rice reports that changes that occured today was as a result of a review; some figures and tables are now cross-referenced more clearly.
 The same was done to ffv1.  Some help is needed to get appropriate captions on the tables.
 Robert Sparks asks that new versions not be updated until there are replies and instructions.
-ACTION: MCR to followup with Robert Sparks on IANA issue.  
+ACTION: MCR to followup with Robert Sparks on IANA issue.
   -> EBML is a "general purpose audio/video container"  Steve to fix #304.
 
 6. Work on Matroska issues.
 
-Split the main Matroska document to take the Chapters in another document? 
+Split the main Matroska document to take the Chapters in another document?
 Only elements required for proper playback should be in the main document.
 Document 166 pages today.
 Chapters is 6 pages, section 11.  --- but the section is not finished.
@@ -70,7 +70,7 @@ MCR: hears support for splitting the chapter off, but asks if there is really th
 Steve: we could make the document smaller by grouping things that have only one parent or one child, with some better transformation of the formatting.
 
 
-The chapters section is not finished, and there are lot of incomplete sections which will 
+The chapters section is not finished, and there are lot of incomplete sections which will
 make the section significantly larger, and so splitting it off into another document may still be justified.
 It makes no sense to work on it now, but make the split off now.
 Steve will give it a try and see what the savings is, and if we have a lot references that break, but does not think that this is the case.
@@ -80,9 +80,9 @@ This issue will be deferred.
 
 Peter B:
 	ffv1 support in davinci / black-magic.  Would rather do this after the document is published. What is status?
-	did Derek's feedback about the implementation in GO make it back into the document. 
-	DR: Yes, this went back into the document about three months ago.  This resulted in a few issues being created, and the review was very helpful. 
-	
+	did Derek's feedback about the implementation in GO make it back into the document.
+	DR: Yes, this went back into the document about three months ago.  This resulted in a few issues being created, and the review was very helpful.
+
 Noting that there are three decoders: ffmpeg, Derek-GO, and Jerome's decoder
 
 7. Any other business.
@@ -94,11 +94,11 @@ Noting that there are three decoders: ffmpeg, Derek-GO, and Jerome's decoder
 	1) use side data. A debated proposal is at https://github.com/cellar-wg/matroska-specification/pull/348. (needsd to mentioned in main document) A sample of matroska with side data timecode is at https://github.com/Matroska-Org/matroska-test-files/pull/5.
 	2) meta-data tag or segment info(needs to be in main document)
 	3) seperate track (codec-like document)
-	
 
 
 
-NEXT meeting is 2020-01-22, 
+
+NEXT meeting is 2020-01-22,
 
 ====
 CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
