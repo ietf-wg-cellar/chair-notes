@@ -33,6 +33,9 @@ WEB CONFERENCE:
              Guestimate is that RFC-editor will complete work by end of
              March, maybe sooner.
 
+    proposed Designated Experts: Primary:     Dave Rice
+                                Secondary:   Steve Lhomme and Moritz Bunz
+
    * FFV1 -- version 12 was posted 2020-01-28, AD waiting for our revisions.
 
 5. FFV1 issues.
