@@ -6,8 +6,8 @@ May 26, 2020        21:00 Amsterdam  ***
 
 
 INFO:
-   https://datatracker.ietf.org/meeting/interim-2020-cellar-04/session/cellar
-   https://datatracker.ietf.org/doc/agenda-interim-2020-cellar-04-cellar-01/
+   https://datatracker.ietf.org/meeting/interim-2020-cellar-05/session/cellar
+   https://datatracker.ietf.org/doc/agenda-interim-2020-cellar-05-cellar-03/
 
 WEB CONFERENCE:
    https://whereby.com/cellar-interim
@@ -125,7 +125,7 @@ no comments. Minutes approved.
 
 7. AOB.
 Matroska meeting in Amsterdam. _No Time To Wait._
-Still stalling on opening registration and call for proposals.  
+Still stalling on opening registration and call for proposals.
 Many large gatherings are cancelled due to COVID, so it might delayed or cancelled.
 Registration decision will take a few weeks.
 

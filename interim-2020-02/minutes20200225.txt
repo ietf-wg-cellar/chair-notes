@@ -1,0 +1,138 @@
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+feburary  25, 2020     21:00 Amsterdam  ***
+                       19:00 UTC
+                       15:00 NYC
+                       12:00 San Francisco
+
+
+INFO:
+   https://datatracker.ietf.org/meeting/interim-2020-cellar-02/session/cellar
+   https://datatracker.ietf.org/doc/agenda-interim-2020-cellar-02-cellar-01/
+
+WEB CONFERENCE:
+   https://whereby.com/cellar-interim
+   THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+   These notes at: https://github.com/cellar-wg/chair-notes
+
+Present:
+	1) Michael Richardson
+	2) Martin Below
+	3) Jerome Martinez
+	4) Dave Rice
+	5)
+
+Regrets:
+    1) Steve Lhomme
+    2)
+
+
+MEETING ADJOURNED DUE TO LACK OF QUORUM AT 21:10
+
+----
+
+1. Note Well.  https://www.ietf.org/about/note-well/
+2. Accept draft minutes from January 28 meeting (attached below)
+
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+   2b) APPEAR.IN is now called "whereby.com"
+       https://whereby.com/cellar-interim
+
+   2c) Roll call
+
+4. WG status update
+   * EBML -- version 17 was posted 2020-01-27
+             IESG approved it, and it is now in RFC-editor queue.
+             IANA has reviewed it, created registries.
+             Guestimate is that RFC-editor will complete work by end of
+             March, maybe sooner.
+
+    proposed Designated Experts: Primary:     Dave Rice
+                                Secondary:   Steve Lhomme and Moritz Bunz
+
+   * FFV1 -- version 12 was posted 2020-01-28, AD waiting for our revisions.
+   DAVE RICE will revise the todo and re-ping the list with the work.
+   Jerome is lacking time, but is among the critical path for finishing this, along with Michael Niedermeyer.
+
+	Some discussion about physical interim.
+
+5. FFV1 issues.
+
+6. Work on Matroska issues.
+
+
+---- PREVIOUS NOTES
+
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+January  28, 2020      19:00 UTC
+                       21:00 Amsterdam
+                       15:00 NYC
+                       12:00 San Francisco
+
+PRESENT:
+        1. Michael Richardson
+        1. Spencer Dawkins
+        1. Steve Lhomme
+        1. Michael Niedermayer
+        1. Jerome Martinez
+        1. Dave Rice
+        7. Martin Below
+
+REGRETS:
+        *
+
+INFO:
+   https://datatracker.ietf.org/meeting/interim-2020-cellar-01/session/cellar
+   https://datatracker.ietf.org/doc/agenda-interim-2020-cellar-01-cellar-01/
+
+WEB CONFERENCE:
+   https://whereby.com/cellar-interim
+   THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+   These notes at: https://github.com/cellar-wg/chair-notes
+
+1. Note Well.  https://www.ietf.org/about/note-well/
+2. Accept draft minutes from December 10 meeting (attached below)
+        no objections or changes noted.
+
+3. Logistics for Meeting.
+   2a) Etherpad for notes
+       https://etherpad.ietf.org/p/notes-cellar-virtual?useMonospaceFont=true
+
+   2b) APPEAR.IN is now called "whereby.com"
+       https://whereby.com/cellar-interim
+
+   2c) Roll call
+
+4. Welcome to Spencer Dawkins.
+
+5. WG status update
+   * EBML -- version 17 was posted 2020-01-27
+      https://datatracker.ietf.org/doc/draft-ietf-cellar-ebml/writeup/
+      https://datatracker.ietf.org/doc/draft-ietf-cellar-ebml/ballot/
+
+    -17 believed to address all DISCUSS comments now.
+
+   * FFV1 -- version 12 was posted 2020-1-28. Going to Adam Roach responsible AD
+                                   doing review.
+
+    - some issues made. Work is half-done.
+    - Jerome will take the next move to close some of the To do items.
+
+6. Work on Matroska issues.
+
+** Start New Chapters Pull Request.
+-> Conclusion that splitting chapters off into new document is not worth the effort.
+
+*** does not validate yet, but working on it.  More Text to explain what Chapters do.
+*** pull request was too big, and has been split off into smaller chunks to absorb.
+
+Discussion: do we need some diagrams, etc. for the next meeting?
+No: just go through some issues and deal with some concrete pull requests.
+Updated, issue #354, that was lingering for some time because of EBML path format, which is now clear in -17 of EBML, so now we can merge it.  It changes half of the lines in the document, so need to do this now.
+
+7. Any other business.
+
+Next meeting: 2020-02-25.
+
