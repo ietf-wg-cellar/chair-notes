@@ -32,9 +32,9 @@ WEB CONFERENCE:
 
 4. WG status update
    * some documents expired:
-      I-D was expired <draft-ietf-cellar-matroska-05.txt>
-      I-D was expired <draft-ietf-cellar-codec-04.txt>
-      I-D was expired <draft-ietf-cellar-tags-04.txt><<<draft-ietf
+   ** I-D was expired :draft-ietf-cellar-matroska-05.txt
+   ** I-D was expired :draft-ietf-cellar-codec-04.txt
+   ** I-D was expired :draft-ietf-cellar-tags-04.txt
 
    * FFV1 -- version 18 was posted 2020-10-07, waiting for revision
 
