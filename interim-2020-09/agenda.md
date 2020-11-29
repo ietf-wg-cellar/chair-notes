@@ -17,8 +17,7 @@ WEB CONFERENCE:
    These notes at: https://github.com/cellar-wg/chair-notes
    
    Attendees
-1. Spencer Dawkins
-2. 
+   * Spencer Dawkins 
 
 1. Note Well.  https://www.ietf.org/about/note-well/
 2. Accept draft minutes from October 27 meeting (attached below)
