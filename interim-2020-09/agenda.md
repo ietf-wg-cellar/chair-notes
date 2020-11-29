@@ -1,0 +1,163 @@
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+December 1, 2020     21:00 Amsterdam  ***
+                       20:00 UTC
+                       16:00 NYC
+                       13:00 San Francisco
+(Time is anchored to Amsterdam)
+
+INFO:
+   https://datatracker.ietf.org/doc/agenda-interim-2020-cellar-09-cellar-01/
+
+WEB CONFERENCE:
+
+   https://whereby.com/cellar-interim
+
+   THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+
+   These notes at: https://github.com/cellar-wg/chair-notes
+   
+   Attendees
+1. Spencer Dawkins
+2. 
+
+1. Note Well.  https://www.ietf.org/about/note-well/
+2. Accept draft minutes from October 27 meeting (attached below)
+
+3. Logistics for Meeting.
+   3a) Shared COMIMD for notetaking:
+       https://codimd.ietf.org/notes-cellar-virtual
+       * Note that if you log in to the IETF datatracker, you'll 
+       be able to edit these notes, add your name to attendee 
+       lists, etc. *
+       
+       Please ask Spencer if you have questions.
+
+   3b) APPEAR.IN is now called "whereby.com"
+
+       https://whereby.com/cellar-interim
+
+   3c) Roll call
+
+4. WG status update
+
+   * FFV1 -- version 18 was posted 2020-10-07, waiting for revision
+
+5. 2021 Proposed virtual interim meeting dates
+   Fourth Tuesdays in 2021 are
+   * January 26
+   * February 23
+   * March 23
+   * April 27
+   * May 25
+   * June 22
+   * July 28 clashes with IETF 111
+   * August 24
+   * September 28
+   * October 26
+   * November 23
+   * December 28 winter holidays
+   What do we need to change?
+
+6. remaining FFV1 issues from DISCUSS
+   * 
+
+7. Matroska issues
+   * 
+
+8. FLAC issues
+   * 
+
+
+AOB?
+
+Some revision to the WG milestones, to be confirmed with AD.
+
+    NEXT MEETING January 26, 2021.
+
+Notes from previous meeting for approval
+
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+October 27, 2020     21:00 Amsterdam  ***
+                       20:00 UTC
+                       16:00 NYC
+                       13:00 San Francisco
+(Europe has changed clocks, North America has not. Time is anchored to Amsterdam)
+
+INFO:
+   https://datatracker.ietf.org/doc/agenda-interim-2020-cellar-08-cellar-01/
+
+WEB CONFERENCE:
+
+   https://whereby.com/cellar-interim
+
+   THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+
+   These notes at: https://github.com/cellar-wg/chair-notes
+   
+   Attendees
+1. Spencer Dawkins
+2. Michael Richardson
+3. Steve Lhomme
+4. Jerome Martinez
+5. Dave Rice
+6. Michael Niedermayer
+7. Martin Below
+
+1. Note Well.  https://www.ietf.org/about/note-well/
+2. Accept draft minutes from September 22 meeting (attached below)
+
+3. Logistics for Meeting.
+   3a) Shared COMIMD for notetaking:
+       https://codimd.ietf.org/notes-cellar-virtual
+       * Note that if you log in to the IETF datatracker, you'll 
+       be able to edit these notes, add your name to attendee 
+       lists, etc. *
+       
+       Please ask Spencer if you have questions.
+
+   3b) APPEAR.IN is now called "whereby.com"
+
+       https://whereby.com/cellar-interim
+
+   3c) Roll call
+
+4. WG status update
+   * some documents expired:
+   ** I-D was expired :draft-ietf-cellar-matroska-05.txt
+   ** I-D was expired :draft-ietf-cellar-codec-04.txt
+   ** I-D was expired :draft-ietf-cellar-tags-04.txt
+
+   * FFV1 -- version 18 was posted 2020-10-07, waiting for revision
+
+
+5. remaining FFV1 issues from DISCUSS
+   * We talked about how to respond to DISCUSS ballots from area directors. Basically, we reply to their ballot e-mails and either point them to an update that should resolve their DISCUSSes and COMMENTS, or talk with them and resolve any confusion (on our part, or on theirs). 
+
+6. Matroska issues
+ 
+Sampling accuracy:
+https://github.com/cellar-wg/matroska-specification/pull/425/files
+Reuse TrackTimestampScale which was deprecated, but has running code to solve the problem of time scaling.
+
+<i didn't understand that second question>
+
+Recurring Attribute of element:   what does it mean?
+The answer is in the EBML document!
+
+draft-ietf-cellar-tags-04.txt document is pretty much done, and won't change very much.
+draft-ietf-cellar-codec-04.txt how deep do we want to describe codec mappings?  We probably aren't going to do this for every codec, but maybe a few more?
+
+8. FLAC issues
+
+"ffv1" for audio.  
+(A bit related to ogg, when you mux it?)
+We still want to do this at some point, but it is not a priority compared to ffv1, (and ffv1-v4).
+
+AOB?
+
+- From Spencer - when do we need to talk about 2021 meeting dates? :-)
+- Answer - we'll put this on the December Agenda
+
+Some revision to the WG milestones, to be confirmed with AD.
+
+    NEXT MEETING December 1, 2020.
