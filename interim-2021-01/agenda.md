@@ -58,9 +58,13 @@ WEB CONFERENCE:
    * If all of the above, what needs to happy to submit an updated draft?
 
 7. From the mailing list: "What is the canonical procedure to create an "infinite" audio stream, using Opus and FLAC codecs?"
+
         I have been attempting to locate a site which streams Opus continuously to test.
+		
 		I also am interested in the exact opusenc, et al. commands necessary to achieve creation of live audio streams. 
+		
 		The use cases are implementation of user-defined Web radio station, the capability to play the "infinite" stream using HTMLAudioElement (WHATWG/HTML) over HTTP. 
+		
 		("infinite" is quoted here as there is no way to verify infinity; the gist is playback should not stop; is not seekable).
    * 
 
