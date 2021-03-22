@@ -1,0 +1,195 @@
+CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
+March 23, 2021      21:00 Amsterdam  ***
+                       20:00 UTC
+                       16:00 NYC
+                       13:00 San Francisco
+(*** Time is anchored to Amsterdam)
+
+INFO:
+   https://datatracker.ietf.org/doc/agenda-interim-2021-cellar-02-cellar-01/
+
+WEB CONFERENCE:
+
+   https://whereby.com/cellar-interim
+
+   THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+
+   These notes at: https://github.com/cellar-wg/chair-notes
+   
+   Attendees
+   * Spencer Dawkins 
+
+1.  Note Well.  https://www.ietf.org/about/note-well/
+2.  Accept draft minutes from January 26 meeting (attached below)
+
+3.  Logistics for Meeting.
+   3a) Shared COMIMD for notetaking:
+       https://codimd.ietf.org/notes-cellar-virtual
+       * Note that if you log in to the IETF datatracker, you'll 
+       be able to edit these notes, add your name to attendee 
+       lists, etc. *
+       
+       Please ask Spencer if you have questions.
+
+   3b) APPEAR.IN is now called "whereby.com"
+
+       https://whereby.com/cellar-interim
+
+   3c) Roll call
+
+4.  WG status update
+
+   * draft-ietf-cellar-codec-05 was posted 2020-10-19, in ID Exists
+   * draft-ietf-cellar-ffv1-20 was posted 2020-12-01, was approved before IETF 110, is now in RFC Editor Queue
+   * draft-ietf-cellar-ffv1-v4-16 was posted 2020-12-01, in ID Exists
+   * draft-ietf-cellar-matroska-06 was posted 2020-10-19, in ID Exists
+   * draft-ietf-cellar-tags-05 was posted 2020-10-19, in ID Exists
+   * FLAC specification has not been posted to the datatracker yet
+   
+   * We agreed at the December 2020 meeting that we would have a focused conversation about FFV1 v4 in our February meeting, and noted then that the April 2021 date is not realistic. At this point, NONE of our existing dates are realistic. We'll discuss on this call. 
+
+5.  2021 virtual interim meeting dates
+
+   * Please note that the our 2021 dates listed at https://datatracker.ietf.org/wg/cellar/meetings/
+   * Sometime around 2021-09-28, we’ll see if we want to meet at IETF 112 on November 6-12, 2021, in person in Madrid.
+
+6.  Celebration of FFV1 approval for publication as RFC, with minor cleanup
+   * IESG ballot positions at https://datatracker.ietf.org/doc/draft-ietf-cellar-ffv1/ballot/
+   * We will have our second RFC "Real Soon Now"
+   * We need to pay close attention to normative references, especially if they are really informative
+   * FFV1 doesn't actually have a normative dependency on Matroska - are any other normative dependencies actually informative?
+
+7.  From the mailing list: Normative references that are actually Informative references
+   * Do we have anything else to change, in FFv1?
+   * Do we have anything to change in other specifications?
+   
+8   FFV1 v4 issues
+   * 
+   
+9.  Matroska issues
+   * 
+
+10. FLAC issues
+   * 
+
+AOB?
+
+    NEXT MEETING April 27, 2021.
+
+Notes from previous meeting for approval
+
+CELLAR – DRAFT AGENDA for Virtual Interim Meeting
+February 23, 2021 21:00 Amsterdam ***
+20:00 UTC
+16:00 NYC
+13:00 San Francisco
+(*** Time is anchored to Amsterdam ***)
+
+INFO:
+https://datatracker.ietf.org/doc/agenda-interim-2021-cellar-02-cellar-01/
+
+WEB CONFERENCE:
+
+https://whereby.com/cellar-interim
+
+THERE IS NO TELEPHONE DIALIN (You can try this at any time.)
+
+These notes at: https://github.com/cellar-wg/chair-notes
+
+Attendees
+
+* Spencer Dawkins
+* Michael Richardson
+* Steve Lhomme
+* Reto Krommer
+* Jerome Martinez
+* Moritz Bunkus
+* Martin Below
+* Dave Rice
+* Michael Niedermayer
+
+1. Note Well. https://www.ietf.org/about/note-well/
+
+2. Accept draft minutes from January 26 meeting (attached below)
+
+3. Logistics for Meeting.
+3a) Shared COMIMD for notetaking:
+https://codimd.ietf.org/notes-cellar-virtual
+* Note that if you log in to the IETF datatracker, you’ll
+be able to edit these notes, add your name to attendee
+lists, etc. *
+
+Please ask Spencer if you have questions.
+3b) APPEAR.IN is now called “whereby.com”
+
+https://whereby.com/cellar-interim
+3c) Roll call
+
+4. WG status update
+
+* draft-ietf-cellar-codec-05 was posted 2020-10-19, in ID Exists
+* draft-ietf-cellar-ffv1-19 was posted 2020-12-01, in AD Followup, but there’s still an open discuss position
+* draft-ietf-cellar-ffv1-v4-16 was posted 2020-12-01, in ID Exists
+* draft-ietf-cellar-matroska-06 was posted 2020-10-19, in ID Exists
+* draft-ietf-cellar-tags-05 was posted 2020-10-19, in ID Exists
+
+* FLAC specification has been posted to the datatracker, but has expired
+
+We agreed at the December 2020 meeting that we would have a focused conversation about FFV1 v4 in our February meeting, and noted then that the April 2021 date is not realistic.
+
+5. 2021 virtual interim meeting dates
+* Please note that the our 2021 dates listed at https://datatracker.ietf.org/wg/cellar/meetings/
+* Sometime around 2021-09-28, we’ll see if we want to meet at IETF 112 on November 6-12, 2021, in person in Madrid.
+
+6. remaining FFV1 issues from DISCUSS
+
+* IESG ballot positions at https://datatracker.ietf.org/doc/draft-ietf-cellar-ffv1/ballot/
+* Only remaining Discuss position is (still) from Barry Leiba, on section 3.8.1.x
+* From our previous meeting: “Jerome, Michael and DR will organize a time to redo the 3.8.1 formula into more clear pseudo-code.” Did this happen?
+* Can we submit an update before the new IESG is seated, the week of March 8? If not, the new ADs may also be reviewing this draft (with new comments and Discusses) …
+
+* Dave is sending XML to Michael to be posted today, to make sure that the update resolves Barry’s Discuss
+
+7. From the mailing list: “The EBML Errata for the XSD file and how to proceed”
+* Two separate issues - XSD file and RFC changed the way “mandatory” is handled (this is the bigger problem, and was a mistake)
+* XSD is easier, we’ll start there :-)
+* There’s a conflict between the XSD and the text - the text is correct. We need to fix the file.
+* We can (and should) accept an errata for the XSD
+* We have text on the former Matroska specification web page, that changed (so this only applies to mandatory elements). Track language is the most prominent element that isn’t mandatory, and has a default that’s not 0 or a null string - it’s English. So all Matroska files with no track language element will suddenly default to English. And most/all software works the way the former specification says, not in the EBML RFC.
+* We just missed this when reviewing the EBML draft for publication.
+* We did recognize concerns about how long the change will take to propagate through the development community, including hardware devices that have the old behavior.
+
+* Actually need three states for these flags
+* If we remove mandatory attribute for these new elements, they’ll be handled the way they’ve always been handled, but that will cause problems for FFV1 v1-3 implementations (these specifications are frozen).
+* Are there other elements that are also affected, that we might have to treat as an exception? Nobody is using the new elements yet. Some do, things like display width (doesn’t have a default value, but has a formula). Some are already used in WebM.
+* Problem is that we specified defaults for some attributes, but they aren’t mandatory.
+* We’re super conficted about what the right answer is - even individuals are conflicted
+
+* Errata - write a general errata, and then figure out what to do.
+* Add details to Matroska specification?
+* Create a list of elements that have defaults but are not mandatory? This has been sent to the mailing list already, by the way.
+* We have a PR for this - has not been merged yet - PR#396 on EBML that we all agree we can merge.
+(By the way - our AD will still be Murray, so no change)
+
+8. FFV1 v4 issues
+
+We haven’t worked on this yet, but we will :-)
+
+9. Matroska issues
+
+* A lot of this was covered in previous discussion …
+* We can merge PR#450, confirmed on the call
+* We can merge PR#452, confirmed on the call
+* Extension tag is missing a type attribute - any input from Dave? Issue #454
+* We can merge PR#440 - https://github.com/ietf-wg-cellar/matroska-specification/pull/440, confirmed on the call
+* Repo has like 78 branches - we need to clean up after merging them. See https://github.com/ietf-wg-cellar/matroska-specification/branches/stale for details.
+
+10. FLAC issues
+
+* Dave will repost this document when the submission window opens
+* Michael and Spencer will reach out to Florian Weimer to see if he can help with this document
+
+AOB?
+
+* Any other reviewers we should invite to review our specifications (who would be affected by our work)?
+* Michael and Spencer will ask this question on the mailing list and to specific people
