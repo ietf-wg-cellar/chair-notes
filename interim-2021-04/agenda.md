@@ -1,5 +1,5 @@
 CELLAR -- DRAFT AGENDA for Virtual Interim Meeting
-March 23, 2021      21:00 Amsterdam  ***
+April 27, 2021      21:00 Amsterdam  ***
                        20:00 UTC
                        16:00 NYC
                        13:00 San Francisco
@@ -20,7 +20,8 @@ WEB CONFERENCE:
    * 
 
 1.  Note Well.  https://www.ietf.org/about/note-well/
-2.  Accept draft minutes from January 26 meeting (attached below)
+
+2.  Accept draft minutes from previous meeting (attached below)
 
 3.  Logistics for Meeting.
    3a) Shared COMIMD for notetaking:
@@ -54,8 +55,8 @@ WEB CONFERENCE:
 
 5.  2021 virtual interim meeting dates
 
-   * Please note that the our 2021 dates listed at https://datatracker.ietf.org/wg/cellar/meetings/
-   * Determination of whether IETF 111 in July will be able to meet in person, to be made in a month or two. 
+   * Please note our 2021 dates listed at https://datatracker.ietf.org/wg/cellar/meetings/
+   * IETF 111 in July will definitely be virtual (announced last week). 
    * Sometime around 2021-09-28, we’ll see if we want to meet at IETF 112 on November 6-12, 2021, in person in Madrid.
 
 6.  From the mailing list: From Steve, on EBML errata
