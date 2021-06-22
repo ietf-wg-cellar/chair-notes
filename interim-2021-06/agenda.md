@@ -51,7 +51,7 @@ Qur next meeting will be 2021-08-24 :zap:
    * 
 
   Regrets 
-   *  
+   * Reto Kromer
 
 ### Accept draft minutes from previous meeting (attached below)
 
